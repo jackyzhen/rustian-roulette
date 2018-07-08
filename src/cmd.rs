@@ -7,9 +7,9 @@ pub struct Config {
     pub path: PathBuf,
 }
 
-static DEFAULT_CHAMBERS: usize = 6;
-static CHAMBER_ARG: &str = "chamber";
-static PATH_ARG: &str = "path";
+const DEFAULT_CHAMBERS: usize = 6;
+const CHAMBER_ARG: &str = "chamber";
+const PATH_ARG: &str = "path";
 
 impl Config {
     pub fn new(args: Args) -> Config {

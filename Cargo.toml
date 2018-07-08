@@ -1,6 +1,6 @@
 [package]
 name = "rustian-roulette"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Jacky Zhen <jacky.s.zhen@gmail.com>"]
 description = "Play deadly roulette with your file system. Not meant for serious consumption."
 license = "MIT"
@@ -10,7 +10,7 @@ readme = "README.md"
 
 [[bin]]
 bench = false
-path = "src/bin/main.rs"
+path = "src/main.rs"
 name = "rr"
 
 [dependencies]

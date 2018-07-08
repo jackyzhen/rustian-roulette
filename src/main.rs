@@ -3,7 +3,7 @@ extern crate rustian_roulette;
 use rustian_roulette as rr;
 use std::env;
 
-static COUNTDOWN_FROM: usize = 5;
+const COUNTDOWN_FROM: usize = 5;
 
 fn main() {
     let config = rr::cmd::Config::new(env::args());
