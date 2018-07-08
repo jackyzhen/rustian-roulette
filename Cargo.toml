@@ -1,0 +1,7 @@
+[package]
+name = "rustian-roulette"
+version = "0.1.0"
+authors = ["Jacky Zhen <jacky.s.zhen@gmail.com>"]
+
+[dependencies]
+rand = "0.5.3"
