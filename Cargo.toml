@@ -1,7 +1,17 @@
 [package]
 name = "rustian-roulette"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Jacky Zhen <jacky.s.zhen@gmail.com>"]
+description = "Play deadly roulette with your file system. Not meant for serious consumption."
+license = "MIT"
+homepage = "https://github.com/jackyzhen/rustian-roulette"
+repository = "https://github.com/jackyzhen/rustian-roulette"
+readme = "README.md"
+
+[[bin]]
+bench = false
+path = "src/bin/main.rs"
+name = "rr"
 
 [dependencies]
 rand = "0.5.3"
